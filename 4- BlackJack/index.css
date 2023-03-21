@@ -1,0 +1,124 @@
+body {
+    background-image: url("Table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.chips{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+    gap: 10px;
+    width: 400px;
+    margin: auto;
+    
+    
+ 
+    padding: 10px;
+   
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+   
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0;
+    text-align: center;
+    padding: 10px 0;
+    width: 800px;
+    margin: auto;
+    grid-template-rows: 80px 200px;
+
+}
+
+.blackjack{
+    display: inline-block;
+    
+    border-radius: 30px;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    grid-row-start: 3;
+    grid-column-start: 3;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.yazi{
+    font-size: 150px;
+    margin: auto;
+    margin-top: 2%;
+    color: goldenrod;
+
+}
+strong{
+    color: black;
+}
+
+
+
+
+.oyuncu {
+    display: inline-block;
+    width: 400px;
+    margin: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 7px solid goldenrod;
+    border-radius: 30px;
+    
+    
+}
+#house{
+    display: inline-block;
+    border: 7px solid goldenrod;
+    border-radius: 30px;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    
+}
+
+
+h1 {
+    color: goldenrod;
+    
+
+    
+    
+    
+}
+
+#message-el {
+    color: white;
+    font-style: italic;
+    
+    
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+    color: #105E2D;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+

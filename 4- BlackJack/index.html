@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="oyuncu">
+            <h1>Player</h1>
+            <p id="message-el">Want to play a round ?</p>
+            <p id="cards-el">Cards: </p>
+            <p id="sum-el">Sum:</p>
+            <button id="startGame-btn" onclick="startGame()">START GAME</button>
+            <br>
+            <button id="newCard-btn" onclick="newCard()">NEW CARD</button>
+            <br>
+            <button id="pass-btn" onclick="pass()">PASS</button>
+            <p id="player-el"></p>
+            <p id="betp">You'r bet:</p>
+            <br>
+            <div>
+                <h3>choose your bet</h3>
+                <div class="chips">
+                    <div class="box"><input onclick="bet2()" value="0" id="20bet" style="width: 100px;" type="image"
+                            src="chip20.png"></div>
+                    <div class="box"><input onclick="bet5()" value="1" id="50bet" style="width: 100px;" type="image"
+                            src="chip2_50.png"></div>
+                    <div class="box"><input onclick="bet10()" value="2" id="100bet" style="width: 100px;" type="image"
+                            src="chip100.png"></div>
+                </div>
+            </div>
+
+        </div>
+        <div id="house">
+            <h1>House</h1>
+            <p>House hand:</p>
+            <p id="houseCards-el">Cards: </p>
+            <p id="houseSum-el">Sum:</p>
+        </div>
+        <div class="blackjack">
+            <img style="width: 250px;" src="ak.png" alt="">
+        </div>
+        <br>
+        
+
+
+    </div>
+    <br>
+    <div class="yazi"><strong>BLACK</strong>JACK</div>
+    <br>
+    
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
